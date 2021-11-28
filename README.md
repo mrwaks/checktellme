@@ -58,6 +58,11 @@
 
 <br>
 
+### The mobile version is obsolete because it returns a code 101 - switching protocol.
+### Bug correction in progress ...
+
+<br>
+
 ## **Issues:**
 
 ### If you think that some things are not working as expected, or that this functionality could be improved, please let me know, it will be a pleasure for me to receive your requests.
