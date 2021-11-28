@@ -1,0 +1,5 @@
+VERSIONNING:
+
+checktellme V1.0.0:
+
+    - checkMail() function.
