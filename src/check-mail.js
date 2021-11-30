@@ -36,13 +36,12 @@ const checkMail = () => {
     let res;
     if (mailValid.test(mail.value.toLowerCase()) && mail.value.length <= maxBytes) {
         const extValue = mail.value.toLowerCase().match(extUser).join("");
-        const checkExt = exts.map(ext => new RegExp(`^${ext}$`).test(extValue));
-        for (let i in checkExt) {
-            if (checkExt[i] === true) {
+        for (let i in exts) {
+            if (exts[i] === extValue) {
                 res = true;
                 break;
             }
-            if (!checkExt[i] === true) {
+            if (!exts[i] === true) {
                 res = false;
             }
         }
