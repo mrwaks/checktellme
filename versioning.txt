@@ -2,4 +2,11 @@ VERSIONNING:
 
 checktellme V1.0.0:
 
-    - checkMail() function.
+    - checkMail() function using regular expressions
+
+checktellme V1.1.0
+
+    - Bug fixed:
+
+        1. Creation of a checkMail() function that does not use a regular expression, because the Safari browser does not take them into account, and neither do most mobile browsers.
+        2. Modification of documentation (README.md).
