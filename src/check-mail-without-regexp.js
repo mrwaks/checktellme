@@ -41,7 +41,7 @@ const checkHostname = () => {
 
 // Check hostname extension:
 const checkExtension = () => {
-    return exts.filter(ext => email.value.endsWith(ext)).length > 0 ? true : false;
+    return exts.filter(ext => email.value.endsWith(`.${ext}`)).length > 0 ? true : false;
 }
 
 // Global function:
